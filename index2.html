@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>page 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a class="nav-button" onclick="next('http://127.0.0.1:5501/index.html')"
+        >Home</a
+      >
+      <a class="nav-button" onclick='next("http://127.0.0.1:5501/index3.html")'
+        >Another Page</a
+      >
+      <a onclick="relode()" class="nav-button">Refresh</a>
+      <a class="nav-button" onclick="back()">Back</a>
+      <a class="nav-button" onclick="farward()">Forward</a>
+      <a target="_blank" onclick="open1()" class="nav-button">Open New Tab</a>
+      <a target="_blank" onclick="close1()" class="nav-button">close New Tab</a>
+    </div>
+
+    <!-- Centered Content -->
+    <div class="center-content">
+      <h1>Welcome to My Page 2</h1>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
